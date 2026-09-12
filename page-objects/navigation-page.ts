@@ -44,5 +44,4 @@ export class NavigationPage{
             await groupMenuItem.click()
         }
     }
-
-}  
+}
