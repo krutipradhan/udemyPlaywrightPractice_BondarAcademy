@@ -1,6 +1,10 @@
 let myname = "Kruti"
 console.log(myname)
 console.log(typeof myname)
+console.log(myname*2)
+console.log(myname+2)
+console.log("bbs"+2)
+console.log("bbsr"*2)
 
 let age = 30
 let val = 12.34

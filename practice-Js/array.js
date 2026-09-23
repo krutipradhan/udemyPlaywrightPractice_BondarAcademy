@@ -11,3 +11,7 @@ let q= true;
 let a=q||=10;
 console.log(a)
 
+let data =[1,3,4,2]
+data.reverse()
+console.log(data)
+

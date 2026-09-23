@@ -23,7 +23,7 @@ test('Extracting Values', async ({ page })=>{
     console.log(allRadioButtons)
     expect (allRadioButtons).toContain('Option 1')
 
-    //extract input field values
+//Extract input field values
     const emailField = basicFormSection.getByRole('textbox', {name:'Email'})
     await emailField.fill('ksp@gmail.com')
     const emailFieldValue= await emailField.inputValue()
