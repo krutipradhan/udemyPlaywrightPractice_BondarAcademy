@@ -22,6 +22,7 @@ function factN(n){
     console.log(facto)  
 }
 factN(4)
+/////////////////
 
 function isPrime(n){
     var flag =0
